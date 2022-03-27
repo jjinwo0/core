@@ -11,7 +11,10 @@ import org.junit.jupiter.api.Test;
 import org.mockito.internal.matchers.Or;
 
 public class OrderServiceTest {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22c31ca (Initial commit)
     MemberService memberService;
     OrderService orderService;
 
@@ -21,9 +24,12 @@ public class OrderServiceTest {
         memberService = appConfig.memberService();
         orderService = appConfig.orderService();
     }
+<<<<<<< HEAD
 //    MemberService memberService = appConfig.memberService();
 //    OrderService orderService = appConfig.orderService();
 
+=======
+>>>>>>> 22c31ca (Initial commit)
     @Test
     void createOrder(){
         long memberId = 1L;
