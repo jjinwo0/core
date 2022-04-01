@@ -6,13 +6,6 @@ public class Member {
     private String name;
     private Grade grade;
 
-<<<<<<< HEAD
-    public Member(){
-
-    }
-
-=======
->>>>>>> 22c31ca (Initial commit)
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
